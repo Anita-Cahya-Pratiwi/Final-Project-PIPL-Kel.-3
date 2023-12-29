@@ -166,11 +166,11 @@ $resulti = mysqli_query($koneksi, $sqli);
         </div>
         <?php if (isset($sukses1) && $sukses1): ?>
                     <div class="alert alert-success" role="alert">
-                        <?php echo $sukses; ?>
+                        <?php echo $sukses1; ?>
                     </div>
                 <?php elseif (isset($error1) && $error1): ?>
                     <div class="alert alert-warning" role="alert">
-                        <?php echo $error;?>
+                        <?php echo $error1;?>
                     </div>
                 <?php endif; ?>
         <div class="card-body">
