@@ -29,7 +29,7 @@ if (isset($_POST['simpan'])) {
         $q1 = mysqli_stmt_execute($stmt);
 
         if ($q1) {
-            $sukses = "Data tersimpan, input barang berikutnya jika ada!";
+            $sukses = "Data unit kelola tersimpan";
             header("refresh:5;url=kelola_pindah_barang.php");
         } else {
             $error = "Gagal menyimpan data. Error: " . mysqli_error($koneksi);
