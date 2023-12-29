@@ -60,7 +60,7 @@ include($headerFile);
                     <div class="alert alert-success" role="alert">
                         <?php echo $sukses; ?>
                     </div>
-                <?php elseif (!empty($error)):  ?>
+                <?php elseif (empty($error)):  ?>
                     <div class="alert alert-warning" role="alert">
                         <?php echo "Gagal menyimpan data, harap isi semua baris!"; ?>
                     </div>
